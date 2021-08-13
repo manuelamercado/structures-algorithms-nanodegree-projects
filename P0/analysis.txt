@@ -1,0 +1,63 @@
+Step 3 - Calculate Big O
+Once you have completed your solution for each problem, perform a run time analysis (Worst Case Big-O Notation) of your solution. Document this for each problem and include this in your submission.
+
+Task0:
+In this case we just take some values at the start and end.
+This not depends on the input size so the complexity is O(1).
+
+Task1:
+In this case we just have some for loops that iterate over the input.
+Due this the program depends on the input size, also the set
+(checked from this page https://wiki.python.org/moin/TimeComplexity). Since all for loops and
+set are independent, the worst case scenario is O(n).
+
+1st loop -> O(n)
+2nd loop -> O(n)
+3rd loop -> O(n)
+4th loop -> O(n)
+set -> O(n)
+len -> O(1)
+Worst case -> O(n)
+
+Task2:
+In this case we have a for loop that iterates over the input making
+the program a dependent of the input size. Also we have a max operation
+that has a complexity of O(n) (see https://wiki.python.org/moin/TimeComplexity).
+Due this the worst case scenario is O(n).
+
+1st loop -> O(n)
+max -> O(n)
+Worst case -> O(n)
+
+Task3:
+In this case we have some for loops independent that iterate over the input.
+Due this the program is dependent on the input size. We have a set that depends
+on the input two and a sort statement with a complexity of O(n log n).
+This info is on the notes for doing this project. Since we are just taking
+the worst case scenario, the graphics from this page (https://www.bigocheatsheet.com/) shows
+that O(n log n) is worse that O(n), so in conclusion the worst case scenario for this case
+is O(n log n).
+
+1st loop -> O(n)
+set -> O(n)
+sort -> O(n log n)
+2nd loop -> O(n)
+3rd loop -> O(n)
+Worst case -> O(n log n)
+
+Task4:
+In this case we have some for loops independents between each one
+that iterate over the input, so they are dependent on the input size.
+The sets are also dependent on the input size. The sort statement has a 
+complexity of O(n log n), putting this last one as the worst case scenario.
+
+1st loop -> O(n)
+2nd loop -> O(n)
+set -> O(n)
+set -> O(n)
+set difference -> O(n)
+set -> O(n)
+set difference -> O(n)
+sort -> O(n log n)
+3rd loop -> O(n)
+Worst case -> O(n log n)

@@ -1,0 +1,10 @@
+Data Structure Questions
+For this project, you will answer the seven questions laid out in the next sections. The questions cover a variety of topics related to the basic algorithms you've learned in this course. You will write up a clean and efficient answer in Python, as well as a text explanation of the efficiency of your code and your design choices.
+
+A qualified reviewer, such as a software or data engineer, will look over your answer and give you detailed, written feedback on areas you're doing very well in and areas that could be improved. For example, is your solution the most efficient one possible? Are you doing a good job of explaining your thoughts? Is your code elegant and easy to read?
+
+In the respective "problem_1.py" files, include at least 3 test cases for each solution.
+For each test case, write the function call with the input you want to test and print it to the console".
+On the next line, comment out the output you expect to see from that function call. At least 2 of these must be edge cases, testing inputs such as null values, empty inputs, unusually large values, et cetera.
+Write up an explanation for each question in a single separate text file, PDF or markdown called "explanation_1.md".
+Your paragraph should not be a detailed walkthrough of the code you provided, but provide your reasoning behind decisions made in the code. For example, why did you use that data structure? You also need to explain the efficiency (time and space) of your solution.
